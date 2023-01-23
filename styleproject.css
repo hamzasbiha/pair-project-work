@@ -1,0 +1,41 @@
+body{
+    
+        background-image: linear-gradient(cyan,blue );
+      
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto;
+    
+    padding: 4px;
+    transform: translate(0, 165px);
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    height: 50%;
+    width: 50%;
+  }
+  img{
+    height: 150%;
+    width: 150%;
+    /* max-width: 210px; */
+    height: 200;
+}
+.search{
+    margin-left:45%;
+    margin-right: 50%;
+    margin-top: 2cm;
+    width: 10%;
+    border-radius:10px;
+    height: 1cm;
+    border-color: tomato;
+
+}
