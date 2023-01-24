@@ -83,13 +83,15 @@ $(document).on("click",function (e) {
     if(e.target.tagName==="IMG") {
        var x =  $(e.target).attr("id")//the id is (i)
        //console.log(x)
-        $("#flg").replaceWith('<div style="width:800px; margin:0 auto;" class="grid-item">'+//here we replace a new div with the capital img
+        $("#flg").replaceWith('<div style="width:1500; margin:0 auto;" class="grid-item">'+//here we replace a new div with the capital img
         '<h1>'+capt[x].capital+'</h1>'+//here the capital title
         '<div><img  src="' + capt[x].imgSrc2 + '" class="imgDetails"/></div> '+//here our capital img
-        '<p>'+capt[x].para+'</p>  '+
+        '<p>'+capt[x].para+'</p>  '+ //paragraph add
         '<a href="'+capt[x].link+'">Voire Plus !</a>'+//here a link of wiki for more info
         '<h4>utiliser des écouteurs 🙉 🙉</h4>'+
         '<div><audio controls>'+
         '<source src="'+capt[x].audio+'" type="audio/mpeg">'+//here we add the audio from our source
       '</audio></div> </div>')
     }})
+    
+   
