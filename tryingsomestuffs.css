@@ -146,7 +146,27 @@
       font-size: 1.25rem;
     }
   }
+  .paracss{
+  white-space: wrap;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
+  text-overflow: ellipsis;
+  }
+  .linkcss{
+    color:whitesmoke
+  }
+  
+  .breturn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
   
   
   

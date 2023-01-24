@@ -86,12 +86,16 @@ $(document).on("click",function (e) {
         $("#flg").replaceWith('<div style="width:1500; margin:0 auto;" class="grid-item">'+//here we replace a new div with the capital img
         '<h1>'+capt[x].capital+'</h1>'+//here the capital title
         '<div><img  src="' + capt[x].imgSrc2 + '" class="imgDetails"/></div> '+//here our capital img
-        '<p>'+capt[x].para+'</p>  '+ //paragraph add
-        '<a href="'+capt[x].link+'">Voire Plus !</a>'+//here a link of wiki for more info
+        '<p class="paracss">'+capt[x].para+'</p>  '+ //paragraph add
+        '<a href="'+capt[x].link+'" class="linkcss">Voire Plus !</a>'+//here a link of wiki for more info
         '<h4>utiliser des écouteurs 🙉 🙉</h4>'+
         '<div><audio controls>'+
         '<source src="'+capt[x].audio+'" type="audio/mpeg">'+//here we add the audio from our source
       '</audio></div> </div>')
     }})
-    
+    ///
+    $("#return").on("click",function () {
+        location.reload()
+    })
+         
    
