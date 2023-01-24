@@ -9,7 +9,7 @@ var flags = [
 },
     {
         country: "japan",
-        imgSrc: "./img/japan/Flag_of_Japan.jpg",
+        imgSrc: "img/japan/Flag_of_Japan .jpg",
 },
     {
         country: "India",
